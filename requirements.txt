@@ -1,5 +1,5 @@
 flask
-flask-cors
+flask_cors
 toml
 urllib3==1.26.15
 requests
