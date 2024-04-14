@@ -113,19 +113,6 @@ To install Devika, follow these steps:
    ```
 8. Access the Devika web interface by opening a browser and navigating to `http://127.0.0.1:3001`
 
-### how to use
-
-To start using Devika, follow these steps:
-
-1. Open the Devika web interface in your browser.
-2. To create a project, click on 'select project' and then click on 'new project'.
-3. Select the search engine and model configuration for your project.
-4. In the chat interface, provide a high-level objective or task description for Devika to work on.
-5. Devika will process your request, break it down into steps, and start working on the task.
-6. Monitor Devika's progress, view generated code, and provide additional guidance or feedback as needed.
-7. Once Devika completes the task, review the generated code and project files.
-8. Iterate and refine the project as desired by providing further instructions or modifications.
-
 ## Configuration
 
 Devika requires certain configuration settings and API keys to function properly:
@@ -148,9 +135,20 @@ when you first time run Devika, it will create a `config.toml` file for you in t
    - `GOOGLE`: The Google API endpoint for web searching.
    - `OLLAMA`: The Ollama API endpoint for accessing Local LLMs.
 
-
 Make sure to keep your API keys secure and do not share them publicly. For setting up the Bing and Google search API keys, follow the instructions in the [search engine setup](docs/Installation/search_engine.md)
 
+### how to use
+
+To start using Devika, follow these steps:
+
+1. Open the Devika web interface in your browser.
+2. To create a project, click on 'select project' and then click on 'new project'.
+3. Select the search engine and model configuration for your project.
+4. In the chat interface, provide a high-level objective or task description for Devika to work on.
+5. Devika will process your request, break it down into steps, and start working on the task.
+6. Monitor Devika's progress, view generated code, and provide additional guidance or feedback as needed.
+7. Once Devika completes the task, review the generated code and project files.
+8. Iterate and refine the project as desired by providing further instructions or modifications.
 
 ## Contributing
 
